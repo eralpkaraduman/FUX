@@ -176,7 +176,7 @@ public class FUXEngine: NSObject {
             }
             parseTween(boxedTween.unbox, storedTween)
         default:
-            println("FUX Tween Engine")
+            print("FUX Tween Engine")
         }
     }
     
@@ -190,7 +190,7 @@ public class FUXEngine: NSObject {
                     parseValue(boxedValue.unbox, tweenValue)
                 }
             default:
-                println("FUX Tween Engine")
+                print("FUX Tween Engine")
         }
     }
 

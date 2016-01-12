@@ -170,6 +170,8 @@
 		6CD3DFAE1A84961D0071C248 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Garrit UG (haftungsbeschränkt)";
 				TargetAttributes = {

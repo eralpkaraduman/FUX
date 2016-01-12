@@ -223,9 +223,9 @@ public func easeInOutBounce(tween: FUXTween) -> FUXTween {
     return FUXTween.Easing(Box(tween)) { time in
         var t = time * 2
         if t < 1 {
-            return (1 - easeOutBounceWithTime(1 - t, 1)) * 0.5
+            return (1 - easeOutBounceWithTime(1 - t, duration: 1)) * 0.5
         } else {
-            return easeOutBounceWithTime(t - 1, 1) * 0.5 + 0.5
+            return easeOutBounceWithTime(t - 1, duration: 1) * 0.5 + 0.5
         }
     }
 }
